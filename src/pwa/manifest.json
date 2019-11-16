@@ -5,8 +5,8 @@
   "background_color": "#000000",
   "display": "standalone",
   "orientation": "portrait",
-  "scope": "/hydrapp/",
-  "start_url": "/hydrapp/",
+  "scope": "/waterapp/",
+  "start_url": "/waterapp/",
   "icons": [
     {
       "src": "assets/pwa/icons/icon-72x72.png",
