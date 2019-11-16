@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>waterapp</title>
+  <meta name="waterapp" content="water reminder" />
+
+  <meta property="og:title" content="waterapp" />
+  <meta property="og:description" content="water" />
+  <meta property="og:url" content="https://github.com/mateuszhadrian/waterapp.git" />
+
+  <link rel="manifest" href="manifest.json" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <link rel="apple-touch-icon" sizes="192x192" href="assets/pwa/icons/icon-192x192.png" />
+
+  <link rel="icon" type="image/png" href="assets/pwa/icons/icon-192x192.png" />
+
+  <link rel="stylesheet" href="css/main.css" />
+</head>
+
+<body>
+  <main class="main-container">
+    <div class="glass-container">
+        <svg width="200" height="200" viewBox="0 0 280 280" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M242.748 2.8875C241.085 1.05 238.74 0 236.255 0H43.7555C41.288 0 38.9255 1.05 37.263 2.8875C35.618 4.7075 34.7955 7.1575 35.0405 9.625L61.2905 272.125C61.7455 276.605 65.508 280 70.0055 280H210.005C214.503 280 218.265 276.605 218.703 272.125L244.953 9.625C245.215 7.1575 244.41 4.7075 242.748 2.8875Z"
+            fill="#FFF8F0" />
+          <path
+            d="M219.455 89.25L202.13 262.5H77.8805L58.4555 68.775C80.3305 61.775 113.58 57.05 140.005 78.75C165.555 99.75 197.755 95.9 219.455 89.25Z"
+            fill="#12355B" />
+        </svg>
+        <div class="number number--js">0</div>
+    </div>
+    <div class="button-area">
+      <button class="button-area__add button-area__add--js">add glass</button>
+      <button class="button-area__remove button-area__remove--js">remove glass</button>
+    </div>
+  </main>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
