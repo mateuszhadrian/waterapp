@@ -1,5 +1,5 @@
 {
-  "name": "wtf-gulp-starter",
+  "name": "waterapp",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,10 +9,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/maciejkorsan/wtf-gulp-starter.git"
+    "url": "git+https://github.com/mateuszhadrian/waterapp.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Mateusz Hadrian",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/maciejkorsan/wtf-gulp-starter/issues"
