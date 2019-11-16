@@ -14,9 +14,21 @@ if ('serviceWorker' in navigator) {
   });
 }
 
-// place your code below
+const addButton = document.querySelector('.button-area__add--js');
+const removeButton = document.querySelector('.button-area__remove--js');
+const counter = document.querySelector('.number--js');
+let value = 0;
 
+addButton.addEventListener('click', function(){
+  value++;
+  counter.textContent = value; 
+})
 
-console.log(`Hello world!`);
+removeButton.addEventListener('click', function(){
+  if (value  > 0){
+    value--;
+    counter.textContent = value;
+  }
+})
 
 

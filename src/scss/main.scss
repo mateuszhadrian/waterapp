@@ -1,5 +1,6 @@
 @import "_normalize";
 @import "_variables";
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
 
 
 html {
@@ -11,7 +12,16 @@ html {
 }
 
 body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Bebas Neue', cursive;
   background: $burgundy;
+  height: 100vh;
+}
+
+.main-container {
+  width: 100vw;
 }
 
 .glass-container {
@@ -37,15 +47,22 @@ body {
     padding: 12px;
     border: none;
     border-radius: 12px;
-    transition: all 0.1s ease-in-out;;
+    transition: all 0.05s ease-in-out;;
       &:active {
         background: black;
         color: white;
       }
     }
     &__remove {
+    color: white;
+    background: black;
+    padding: 8px;
     margin-top: 36px;
     border: none;
     border-radius: 12px; 
+      &:active {
+        background: white;
+        color: black;
+      }
     }
 }
