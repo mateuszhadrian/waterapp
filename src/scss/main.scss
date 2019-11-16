@@ -1,0 +1,51 @@
+@import "_normalize";
+@import "_variables";
+
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  background: $burgundy;
+}
+
+.glass-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin: 50px 0;
+}
+
+.number {
+  position: absolute;
+  bottom: 48px;
+  font-size: 112px;
+
+}
+
+.button-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+    &__add {
+    font-size: 36px;
+    padding: 12px;
+    border: none;
+    border-radius: 12px;
+    transition: all 0.1s ease-in-out;;
+      &:active {
+        background: black;
+        color: white;
+      }
+    }
+    &__remove {
+    margin-top: 36px;
+    border: none;
+    border-radius: 12px; 
+    }
+}
